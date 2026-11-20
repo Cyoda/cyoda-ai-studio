@@ -21,7 +21,7 @@ async def handle_get_file_content() -> ResponseReturnValue:
             "repository_name": "mcp-cyoda-quart-app",
             "file_path": "application/entity/pet/version_1/pet.py",
             "branch": "main",
-            "owner": "Cyoda-platform"
+            "owner": "Cyoda"
         }
 
     Returns:
@@ -35,7 +35,7 @@ async def handle_get_file_content() -> ResponseReturnValue:
         repository_name = data.get("repository_name")
         file_path = data.get("file_path")
         branch = data.get("branch", CLIENT_GIT_BRANCH)
-        owner = data.get("owner", "Cyoda-platform")
+        owner = data.get("owner", "Cyoda")
 
         if not repository_name or not file_path:
             return APIResponse.error(

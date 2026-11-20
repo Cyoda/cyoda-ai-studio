@@ -64,14 +64,14 @@ GITHUB_WEBHOOK_SECRET = os.getenv("GITHUB_WEBHOOK_SECRET")
 # GitHub App - Public Repository Configuration
 GITHUB_PUBLIC_REPO_INSTALLATION_ID = os.getenv("GITHUB_PUBLIC_REPO_INSTALLATION_ID")
 PYTHON_PUBLIC_REPO_URL = os.getenv(
-    "PYTHON_PUBLIC_REPO_URL", "https://github.com/Cyoda-platform/mcp-cyoda-quart-app"
+    "PYTHON_PUBLIC_REPO_URL", "https://github.com/Cyoda/mcp-cyoda-quart-app"
 )
 JAVA_PUBLIC_REPO_URL = os.getenv(
-    "JAVA_PUBLIC_REPO_URL", "https://github.com/Cyoda-platform/java-client-template"
+    "JAVA_PUBLIC_REPO_URL", "https://github.com/Cyoda/java-client-template"
 )
 
 # GitHub repository defaults
-GH_DEFAULT_OWNER = os.getenv("GH_DEFAULT_OWNER", "Cyoda-platform")
+GH_DEFAULT_OWNER = os.getenv("GH_DEFAULT_OWNER", "Cyoda")
 GH_DEFAULT_REPOS = os.getenv(
     "GH_DEFAULT_REPOS", "mcp-cyoda-quart-app,java-client-template"
 ).split(",")

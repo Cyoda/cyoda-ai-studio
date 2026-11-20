@@ -14,7 +14,7 @@ class AnalyzeRepositoryRequest(BaseModel):
         ..., description="Repository name (e.g., 'mcp-cyoda-quart-app')"
     )
     branch: str = Field(default=CLIENT_GIT_BRANCH, description="Branch name to analyze")
-    owner: str = Field(default="Cyoda-platform", description="Repository owner")
+    owner: str = Field(default="Cyoda", description="Repository owner")
     installation_id: Optional[int] = Field(
         default=None,
         description="GitHub App installation ID (optional, uses env var if not provided)",

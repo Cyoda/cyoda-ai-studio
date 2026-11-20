@@ -15,7 +15,7 @@
         "file_blob_ids": null,
         "last_modified": 1765376862928,
         "last_modified_at": "2025-12-10 14:27:42",
-        "message": "\"branch_name\": \"331b36d0-a155-11b2-afc0-0e044684c169\",\n  \"chat_id\": \"test\",\n  \"cyoda_client_id\": \"ICxGbi\",\n  \"cyoda_client_secret\": \"evCGpWt2hCXO85u05EvV\",\n  \"installation_id\": \"90584123\",\n  \"is_public\": \"true\",\n  \"repository_url\": \"https://github.com/Cyoda-platform/mcp-cyoda-quart-app\",\n  \"user_name\": \"cyoda\"\n\nplease deploy to production",
+        "message": "\"branch_name\": \"331b36d0-a155-11b2-afc0-0e044684c169\",\n  \"chat_id\": \"test\",\n  \"cyoda_client_id\": \"ICxGbi\",\n  \"cyoda_client_secret\": \"evCGpWt2hCXO85u05EvV\",\n  \"installation_id\": \"90584123\",\n  \"is_public\": \"true\",\n  \"repository_url\": \"https://github.com/Cyoda/mcp-cyoda-quart-app\",\n  \"user_name\": \"cyoda\"\n\nplease deploy to production",
         "metadata": null,
         "publish": true,
         "technical_id": "d1d44347-e934-4e50-8b0a-1e9cd4745822",
@@ -333,7 +333,7 @@
         "file_blob_ids": null,
         "last_modified": 1765377240071,
         "last_modified_at": "2025-12-10 14:34:00",
-        "message": "Retry successful \u2014 deployment restarted.\n\n- Build ID: 6839c680-8ac9-11b2-aa33-62c195df325a\n- App: my-app-v11\n- Env: production\n- Namespace: client-1-05e11da2107844fc944ee5b872fcb6b6-production-my-app-v11\n- Repo / Branch: github.com/Cyoda-platform/mcp-cyoda-quart-app @ 331b36d0-a155-11b2-afc0-0e044684c169\n\nBuild is in progress (expected 3\u20135 minutes). What would you like to do next?\n- \"view status\" \u2014 check current build progress\n- \"issue credentials\" \u2014 create CYODA_CLIENT_ID / CYODA_CLIENT_SECRET for production\n- \"list apps\" \u2014 list deployed applications in production\n- \"open cloud\" \u2014 open the Cloud/Environments panel\n\nReply with your choice (or click the Cloud panel option).",
+        "message": "Retry successful \u2014 deployment restarted.\n\n- Build ID: 6839c680-8ac9-11b2-aa33-62c195df325a\n- App: my-app-v11\n- Env: production\n- Namespace: client-1-05e11da2107844fc944ee5b872fcb6b6-production-my-app-v11\n- Repo / Branch: github.com/Cyoda/mcp-cyoda-quart-app @ 331b36d0-a155-11b2-afc0-0e044684c169\n\nBuild is in progress (expected 3\u20135 minutes). What would you like to do next?\n- \"view status\" \u2014 check current build progress\n- \"issue credentials\" \u2014 create CYODA_CLIENT_ID / CYODA_CLIENT_SECRET for production\n- \"list apps\" \u2014 list deployed applications in production\n- \"open cloud\" \u2014 open the Cloud/Environments panel\n\nReply with your choice (or click the Cloud panel option).",
         "metadata": {
           "hook": {
             "action": "show_selection_ui",

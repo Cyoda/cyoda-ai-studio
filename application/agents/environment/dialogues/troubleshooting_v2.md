@@ -7,7 +7,7 @@ User:
 "cyoda_client_secret": "test",
 "installation_id": "test",
 "is_public": "true",
-"repository_url": "https://github.com/Cyoda-platform/mcp-cyoda-quart-app
+"repository_url": "https://github.com/Cyoda/mcp-cyoda-quart-app
 ",
 "user_name": "cyoda"
 
@@ -27,7 +27,7 @@ AI:
 Deployment started.
 
 Build ID: f13322b2-8ae0-11b2-aa33-62c195df325a
-Repository: https://github.com/Cyoda-platform/mcp-cyoda-quart-app
+Repository: https://github.com/Cyoda/mcp-cyoda-quart-app
 
 Branch: 331b36d0-a155-11b2-afc0-0e044684c169
 Namespace: client-1-05e11da2107844fc944ee5b872fcb6b6-production-my-app-v1

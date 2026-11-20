@@ -25,8 +25,8 @@ OUTPUT_UPDATE_TIME_THRESHOLD_SECONDS = 5.0
 PROTECTED_BRANCHES = {"main", "master", "develop", "development", "production", "prod"}
 
 # Template repository URLs (used for cloning the initial template)
-JAVA_TEMPLATE_REPO = "https://github.com/Cyoda-platform/java-client-template"
-PYTHON_TEMPLATE_REPO = "https://github.com/Cyoda-platform/mcp-cyoda-quart-app"
+JAVA_TEMPLATE_REPO = "https://github.com/Cyoda/java-client-template"
+PYTHON_TEMPLATE_REPO = "https://github.com/Cyoda/mcp-cyoda-quart-app"
 
 # GitHub configuration from environment
 # Public repository URLs (where we push the code for public builds)

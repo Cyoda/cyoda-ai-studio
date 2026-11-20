@@ -542,21 +542,21 @@ class TestExtractRepoNameAndOwner:
 
     def test_extract_from_https_url(self):
         """Test extracting repo name and owner from HTTPS URL."""
-        url = "https://github.com/Cyoda-platform/mcp-cyoda-quart-app"
+        url = "https://github.com/Cyoda/mcp-cyoda-quart-app"
         owner, name = _extract_repo_name_and_owner(url)
-        assert owner == "Cyoda-platform"
+        assert owner == "Cyoda"
         assert name == "mcp-cyoda-quart-app"
 
     def test_extract_from_git_url(self):
         """Test extracting repo name and owner from .git URL."""
-        url = "https://github.com/Cyoda-platform/mcp-cyoda-quart-app.git"
+        url = "https://github.com/Cyoda/mcp-cyoda-quart-app.git"
         owner, name = _extract_repo_name_and_owner(url)
-        assert owner == "Cyoda-platform"
+        assert owner == "Cyoda"
         assert name == "mcp-cyoda-quart-app"
 
     def test_extract_from_ssh_url(self):
         """Test extracting repo name from SSH URL."""
-        url = "git@github.com:Cyoda-platform/mcp-cyoda-quart-app.git"
+        url = "git@github.com:Cyoda/mcp-cyoda-quart-app.git"
         owner, name = _extract_repo_name_and_owner(url)
         # SSH URLs might not parse owner correctly, but should get name
         assert name == "mcp-cyoda-quart-app"

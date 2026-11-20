@@ -7,7 +7,7 @@
 "cyoda_client_secret": "test",
 "installation_id": "test",
 "is_public": "true",
-"repository_url": "https://github.com/Cyoda-platform/mcp-cyoda-quart-app",
+"repository_url": "https://github.com/Cyoda/mcp-cyoda-quart-app",
 "user_name": "cyoda"
 
 please deploy to production

@@ -182,7 +182,7 @@ def _extract_repo_name_and_owner(user_repo_url: Optional[str]) -> tuple[str, str
         Tuple of (repository_owner, repository_name)
     """
     repository_name = "mcp-cyoda-quart-app"  # Default
-    repository_owner = os.getenv("REPOSITORY_OWNER", "Cyoda-platform")  # Default
+    repository_owner = os.getenv("REPOSITORY_OWNER", "Cyoda")  # Default
 
     if user_repo_url:
         # Pattern to match: https://github.com/owner/repo with optional .git or additional paths (/tree/branch, etc.)

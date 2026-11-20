@@ -25,7 +25,7 @@ TASK_RUNNING_MESSAGE_TEMPLATE = "Process started (PID: {pid})"
 TASK_CREATED_LOG = "📋 Created BackgroundTask entity: {task_id}"
 TASK_UPDATED_LOG = "📋 Updated BackgroundTask {task_id} to {status}"
 CONVERSATION_ADD_ERROR = "Could not add task to conversation: {error}"
-DEFAULT_REPOSITORY_OWNER = "Cyoda-platform"
+DEFAULT_REPOSITORY_OWNER = "Cyoda"
 REPOSITORY_URL_TEMPLATES = {
     "python": "https://github.com/{owner}/mcp-cyoda-quart-app/tree/{branch}",
     "java": "https://github.com/{owner}/java-client-template/tree/{branch}",
@@ -102,7 +102,7 @@ def _build_repository_url(
     else:
         repo_name = "mcp-cyoda-quart-app"
 
-    repo_owner = os.getenv("REPOSITORY_OWNER", "Cyoda-platform")
+    repo_owner = os.getenv("REPOSITORY_OWNER", "Cyoda")
     return f"https://github.com/{repo_owner}/{repo_name}/tree/{branch_name}"
 
 
