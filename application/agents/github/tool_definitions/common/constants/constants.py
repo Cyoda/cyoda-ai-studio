@@ -217,7 +217,7 @@ DIFF_CATEGORY_UNTRACKED = "untracked"
 # Repository Information
 # ============================================================================
 
-DEFAULT_REPO_OWNER = "Cyoda-platform"
+DEFAULT_REPO_OWNER = "Cyoda"
 PUBLIC_REPO_PYTHON = "mcp-cyoda-quart-app"
 PUBLIC_REPO_JAVA = "java-client-template"
 

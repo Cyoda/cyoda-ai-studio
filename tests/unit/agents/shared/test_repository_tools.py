@@ -359,7 +359,7 @@ class TestUpdateConversationBuildContext:
         language = "python"
         branch_name = "feat-branch"
         repository_name = "test-repo"
-        repository_owner = "Cyoda-platform"  # Default from os.getenv
+        repository_owner = "Cyoda"  # Default from os.getenv
 
         mock_conv_obj = MockConversation(
             technical_id=conversation_id,
@@ -952,10 +952,10 @@ class TestCloneRepository:
         mocker.patch.dict(
             os.environ,
             {
-                "PYTHON_PUBLIC_REPO_URL": "https://github.com/Cyoda-platform/mcp-cyoda-quart-app",
-                "JAVA_PUBLIC_REPO_URL": "https://github.com/Cyoda-platform/java-client-template",
+                "PYTHON_PUBLIC_REPO_URL": "https://github.com/Cyoda/mcp-cyoda-quart-app",
+                "JAVA_PUBLIC_REPO_URL": "https://github.com/Cyoda/java-client-template",
                 "GITHUB_PUBLIC_REPO_INSTALLATION_ID": "public_install_id",
-                "REPOSITORY_OWNER": "Cyoda-platform",
+                "REPOSITORY_OWNER": "Cyoda",
             },
         )
         # Mock re.search

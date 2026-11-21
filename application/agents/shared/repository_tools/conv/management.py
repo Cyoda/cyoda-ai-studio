@@ -56,9 +56,9 @@ async def _update_conversation_build_context(
                 )
             except Exception as e:
                 logger.warning(f"⚠️ Failed to extract owner from repository_url: {e}")
-                owner = os.getenv("REPOSITORY_OWNER", "Cyoda-platform")
+                owner = os.getenv("REPOSITORY_OWNER", "Cyoda")
         elif not owner:
-            owner = os.getenv("REPOSITORY_OWNER", "Cyoda-platform")
+            owner = os.getenv("REPOSITORY_OWNER", "Cyoda")
 
         conversation.workflow_cache["language"] = language
         conversation.workflow_cache["branch_name"] = branch_name

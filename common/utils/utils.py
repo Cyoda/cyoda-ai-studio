@@ -223,7 +223,7 @@ Here is an example JSON data structure for the entity `data_analysis_job`, refle
   "end_time": "2023-10-01T10:30:00Z",
   "input_data": {
     "raw_data_entity_id": "raw_data_entity_001",
-    "data_source": "https://raw.githubusercontent.com/Cyoda-platform/cyoda-ai/refs/heads/ai-2.x/data/test-inputs/v1/connections/london_houses.csv"
+    "data_source": "https://raw.githubusercontent.com/Cyoda/cyoda-ai/refs/heads/ai-2.x/data/test-inputs/v1/connections/london_houses.csv"
   },
   "analysis_parameters": {
     "metrics": [

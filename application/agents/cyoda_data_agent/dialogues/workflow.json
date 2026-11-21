@@ -1477,7 +1477,7 @@
         "file_blob_ids": null,
         "last_modified": 1765381194042,
         "last_modified_at": "2025-12-10 15:39:54",
-        "message": "Done \u2014 workflow JSON saved and pushed\n\nI added the versioned workflow file to the branch and pushed the change.\n\n- File: application/resources/workflow/cat_lifecycle/version_1/cat_lifecycle.json\n- Branch: 0fb1104c-07fd-4dc0-a7f1-3c2da839505b\n- Commit message: \"Add cat_lifecycle workflow JSON (versioned)\"\n- Repo: https://github.com/Cyoda-platform/mcp-cyoda-quart-app/tree/0fb1104c-07fd-4dc0-a7f1-3c2da839505b\n\nOpen Canvas to view the workflow or tell me if you want it in a different format/location.",
+        "message": "Done \u2014 workflow JSON saved and pushed\n\nI added the versioned workflow file to the branch and pushed the change.\n\n- File: application/resources/workflow/cat_lifecycle/version_1/cat_lifecycle.json\n- Branch: 0fb1104c-07fd-4dc0-a7f1-3c2da839505b\n- Commit message: \"Add cat_lifecycle workflow JSON (versioned)\"\n- Repo: https://github.com/Cyoda/mcp-cyoda-quart-app/tree/0fb1104c-07fd-4dc0-a7f1-3c2da839505b\n\nOpen Canvas to view the workflow or tell me if you want it in a different format/location.",
         "metadata": {
           "hook": {
             "action": "refresh_canvas",
@@ -1489,7 +1489,7 @@
               "commit_message": "Add cat_lifecycle workflow JSON (versioned)",
               "conversation_id": "5a0c01b2-3421-11b2-9a9a-5a1bb4767573",
               "repository_name": "mcp-cyoda-quart-app",
-              "repository_owner": "Cyoda-platform",
+              "repository_owner": "Cyoda",
               "resource_type": "workflow",
               "resources": {
                 "workflows": [
@@ -1835,7 +1835,7 @@
     "name": "what environments do i have",
     "repository_branch": "0fb1104c-07fd-4dc0-a7f1-3c2da839505b",
     "repository_name": "mcp-cyoda-quart-app",
-    "repository_owner": "Cyoda-platform",
+    "repository_owner": "Cyoda",
     "repository_url": null,
     "technical_id": "5a0c01b2-3421-11b2-9a9a-5a1bb4767573"
   }

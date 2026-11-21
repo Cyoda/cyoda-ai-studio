@@ -385,7 +385,7 @@ Done — workflow JSON saved and pushed.
     "commit_message": "Add cat_lifecycle workflow JSON (versioned)",
     "conversation_id": "5a0c01b2-3421-11b2-9a9a-5a1bb4767573",
     "repository_name": "mcp-cyoda-quart-app",
-    "repository_owner": "Cyoda-platform",
+    "repository_owner": "Cyoda",
     "resource_type": "workflow",
     "resources": {
       "workflows": ["application/resources/workflow/"]

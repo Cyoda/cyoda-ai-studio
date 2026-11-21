@@ -238,8 +238,8 @@ Develop an institutional trading platform with real-time market data feeds, adva
   - `branch_name`: 383310d1-f89d-45d0-b3e2-8fbc76a2e26b
   - `language`: python
   - `repository_name`: mcp-cyoda-quart-app
-  - `repository_owner`: Cyoda-platform
-  - `repository_url`: https://github.com/Cyoda-platform/mcp-cyoda-quart-app
+  - `repository_owner`: Cyoda
+  - `repository_url`: https://github.com/Cyoda/mcp-cyoda-quart-app
   - `installation_id`: 90584123
   - `repository_type`: public
 - **Message**: "Session state updated"
@@ -550,8 +550,8 @@ Develop an institutional trading platform with real-time market data feeds, adva
 - **Build Task ID**: de558a90-43dc-11b2-9a9a-5a1bb4767573
 - **Repository Info**:
   - **Name**: mcp-cyoda-quart-app
-  - **Owner**: Cyoda-platform
+  - **Owner**: Cyoda
   - **Branch**: 383310d1-f89d-45d0-b3e2-8fbc76a2e26b
-  - **URL**: https://github.com/Cyoda-platform/mcp-cyoda-quart-app
+  - **URL**: https://github.com/Cyoda/mcp-cyoda-quart-app
   - **Installation ID**: 90584123
 - **Timestamp**: 2025-12-30T15:27:46.568190

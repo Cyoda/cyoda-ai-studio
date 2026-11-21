@@ -19,13 +19,13 @@ container:
     # Regular environment variables (non-sensitive)
     vars:
       GITHUB_APP_ID: "123"
-      GITHUB_APP_OWNER: "Cyoda-platform"
+      GITHUB_APP_OWNER: "Cyoda"
       GITHUB_APP_CLIENT_ID: "123"
       GITHUB_APP_PUBLIC_LINK: "https://github.com/apps/cyoda-ai-assistant"
       GITHUB_WEBHOOK_URL: "https://example.com/api/github/webhook"
       GITHUB_PUBLIC_REPO_INSTALLATION_ID: "123"
-      PYTHON_PUBLIC_REPO_URL: "https://github.com/Cyoda-platform/mcp-cyoda-quart-app"
-      JAVA_PUBLIC_REPO_URL: "https://github.com/Cyoda-platform/java-client-template"
+      PYTHON_PUBLIC_REPO_URL: "https://github.com/Cyoda/mcp-cyoda-quart-app"
+      JAVA_PUBLIC_REPO_URL: "https://github.com/Cyoda/java-client-template"
 
       # OPTION 1: Use mounted PEM file (recommended - see githubApp.privateKey.mountFromSecret below)
       GITHUB_APP_PRIVATE_KEY_PATH: "/secrets/private-key.pem"

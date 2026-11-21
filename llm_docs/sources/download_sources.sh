@@ -7,7 +7,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 echo "Downloading Cyoda OpenAPI specification..."
 curl -s -o "$SCRIPT_DIR/openapi.json" \
-    https://raw.githubusercontent.com/Cyoda-platform/cyoda-docs/main/public/openapi/openapi.json
+    https://raw.githubusercontent.com/Cyoda/cyoda-docs/main/public/openapi/openapi.json
 echo "✓ Downloaded openapi.json ($(wc -l < "$SCRIPT_DIR/openapi.json") lines)"
 
 echo ""
